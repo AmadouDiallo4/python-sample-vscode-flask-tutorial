@@ -29,10 +29,10 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-   rootFolderOrFile: '$(Build.sourceDirectory)'
+   rootFolderOrFile: '$(Build.SourcesDirectory)'
    includeRootFolder: false
    archiveType: 'zip'
-   archiveFile: '$(Build.ArtifactStagingDirectory)/Application,$(Build.BuikldId).zip'
+   archiveFile: '$(Build.ArtifactStagingDirectory)/Application$(Build.BuildId).zip'
    replaceExistingArchive: true
    verbose: #(no value); this input is optinal
 
