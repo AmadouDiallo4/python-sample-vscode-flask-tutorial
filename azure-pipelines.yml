@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 variables:
-  ConnectedServiceName: 'Flask Pipelines'
+  ConnectedServiceName: 'testFlasPython'
   WebAppName: 'atd-flaskpipelines'
 
 trigger:
